@@ -203,6 +203,19 @@ margin: 10px;
   font-weight: 300;
 }
 /* cards */
+.pt-1{
+  text-align: center;
+}
+.pt-1 h2{
+  font-weight: 300;
+  font-size:2.5rem;
+  margin: 10px;
+}
+.pt-1 p{
+  font-size:1.5rem;
+  font-style: italic;
+  color:#c5b196;
+}
 .cnt-4{
   padding:20px;
   display:flex;
@@ -252,6 +265,72 @@ margin-bottom:5px;
   max-width:200px;
   color: #c1c1c1;
 }
+/* inspirational testymonial */
+/* .inspiration{
+  colo
+} */
+
+.cnt-5{
+  background-image:url(/images/road_in_woods.jpg);
+   background-position:center bottom;
+  background-size: cover;
+  height:80vh;
+  color:#fff;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+.cnt-5 h2:first-of-type{
+  font-size:2.5rem;
+  font-weight:300;
+  margin-bottom:20px;
+  text-transform: uppercase;
+  opacity: .8;
+  text-align: center;
+}
+
+.user-cards{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+
+.cnt-5 .user img{
+    height:80px;
+    width: 80px;
+    font-size:5rem;
+    /* padding:10px; */
+    /* border: 1.5px solid #fff; */
+    border-radius: 50%;
+    position:bottom;
+}
+.cnt-5 .user{
+  max-width:150px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  opacity: .6;
+  cursor: pointer;
+  margin:5px;
+}
+.cnt-5 .user:hover{
+  opacity: 1;
+}
+
+.cnt-5 .user p{
+  margin: 10px;
+  text-align: center;
+}
+.cnt-5 .user h3{
+  font-style: italic;
+}
+
+
+
 
 
 
