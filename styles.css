@@ -5,6 +5,7 @@
   margin:0px;
   padding:0px;box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  /* font-size:13px; */
 }
 
 /* Header styling */
@@ -25,7 +26,8 @@ header > div{
 }
 header div ul {
   list-style: none;
-  display: inline-flex;
+  display: flex;
+  align-items: center
 }
 header div {
   padding: 10px
@@ -34,11 +36,11 @@ header div {
   background-color:#c5b196;
   color:#fff;
   border-radius:50%;
-  padding:15px;
-  margin:6px;
-  font-size:20px;
-  width:50px;
-  height:50px;
+  padding:9px;
+  margin-right:5px;
+  font-size:15px;
+  width:30px;
+  height:30px;
   text-align:center;
 }
 
@@ -74,9 +76,9 @@ header div {
 .menu-btn{
   color:#848484;
   flex-direction:row;
-  margin: 20px 30px 0 10px;
+  margin-right: 20px;
   font-size:20px;
-  font-weight:bold;
+  font-weight:400;
   cursor: pointer;
 }
 .fa-bars{
@@ -125,10 +127,10 @@ header div {
 .fa-caret-right{
   border-radius: 50%;
   /* border: 1px solid black; */
-  padding:3px;
   background-color:black;
   color:#fff;
   height:20px;
+  padding:3px;
   width:20px;
 }
 
@@ -175,9 +177,9 @@ header div {
 margin: 10px;
 }
 .list-li span:last-of-type, .list-ri span:first-of-type{
-  font-size: 3rem;
-  width :100px;
-  height:100px;
+  font-size: 2rem;
+  width :80px;
+  height:80px;
   border-radius: 50%;
   background-color: #e8a3a5;
   display: flex;
@@ -301,6 +303,7 @@ footer span:last-of-type ul a{
     .fa-brands{
       display:none;
     }
+
     header img{
     width: 100px;
     }
